@@ -150,3 +150,56 @@
 //     document.write(c);
 // }
 // addNumbers(10,20);
+//  function multiplyNumbers(a,b){
+//      var c = a*b;
+//      return c;
+//  }
+//     var result = multiplyNumbers(10,20);
+//     console.log(result);
+
+//     var add2= (a,b) => {
+//         console.log(a+b);
+//     }
+//     add2(10,20);
+//    var add3 = (a,b) =>{
+//     console.log(a+b);
+//    } 
+//    add3(10,90);
+   
+
+//    var a= 100;
+//    var b= 200;
+//    var c = 10;
+//    var linebreak = "<br />";
+//     document.write("a+b-c = ");
+//     result = a+b-c;
+//     document.write(result);
+//     document.write(linebreak);
+//     document.write("a+b = ");
+//     result = a+b;
+//     document.write(result);
+//     document.write(linebreak);
+
+// function myFunction(){
+//     var x = 5+5;
+//     var y = "5" + 5;
+//     var z = "Hello"+5;
+//     var demoP = document.getElementById("demo");
+//     demoP.innerHTML = x + "<br>" + y + "<br>" + z;
+// }
+// var name1 = "John";
+// var myCollection = [
+//     1,
+//     "hello word",
+//     true,
+//     {
+//         name: "John",
+//         age: 34
+//     },
+//     function myname(){
+//         console.log(name1);
+
+//     },
+//     ["apple", "banana", "cherry"]
+// ]
+// console.log(myCollection);
