@@ -203,3 +203,93 @@
 //     ["apple", "banana", "cherry"]
 // ]
 // console.log(myCollection);
+
+// function information (firstName, lastName, language){
+//     if (arguments.length === 3){
+//         console.log(firstName);
+//         console.log(lastName);
+//         console.log(language);
+//     } 
+// }
+// information();
+// information("john", "Doe", "English");
+
+// function sayHello(name){
+//     alert("Hello " );
+// }
+
+
+// function over(){
+//     document.getElementById("mytext").style.color = "#00f";
+
+// }
+
+// function mout (){
+//     document.getElementById("mytext").style.color = "#f00";
+// }
+
+
+
+// var retVal = confirm("i will eat all your crypto do tou want to continue ?"); if (retVal==true){
+//    document.write("User wants to continue");
+// }   else{
+//     document.write("User does not want to continue");
+// }
+
+
+
+// varRetVal = prompt("Enter your name : ", "your name here");
+
+    
+//     alert("you have entered " + varRetVal);
+
+
+
+// a = prompt("enter a number : ", "0");
+// b = prompt("enter another number : ", "0");
+// c = alert(parseInt(a) + parseInt(b));
+// var question="What is 10+10";
+// var answer= 20;
+// var corrrect="<img src=1.jpg height=250 width=250>"; 
+// var incorrect="<img src=2.jpg height=250 width=250>";
+// var response=prompt(question,"0");
+// for(count=0;count<2;count++){
+//     if(response!=answer){
+//         confirm("Wrong!, Press OK for another chance");
+//         response=prompt(question,"0");
+//         if(count==1){
+//             alert("Better luck next time");
+//         }
+//     }
+//     else{
+//         alert("Great! You are correct");
+//         count=3;
+//     }
+// }
+// var output=(response==answer)?corrrect:incorrect;
+// document.write("<br/>");
+// document.write(output);
+
+// function Redirect(){
+//     window.location = "http://www.google.com";
+// }
+// document.write("You will be redirected to main page in 10 seconds");
+// let countdown = 10;
+// const countdownInterval = setInterval(() => {
+//     document.write(`<br>Redirecting in ${countdown} seconds...`);
+//     countdown--;
+//     if (countdown < 0) {
+//         clearInterval(countdownInterval);
+//     }
+// }, 1000);
+// setTimeout('Redirect()', 10000);
+
+
+// function validateForm(){
+//     var x = document.forms["myForm"]["fname"].value;
+//     if (x == "" || x == null){
+//         alert("Name must be filled out");
+//         return false;
+//     }
+// }
+
