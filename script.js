@@ -293,3 +293,51 @@
 //     }
 // }
 
+//     const d = new Date("2021-03-25");
+//     const hours = d.getHours();
+//     const minutes = d.getMinutes();
+//     const d2 = new Date();
+//     const currentHours = d2.getHours();
+//     const currentMinutes = d2.getMinutes();
+    
+//     console.log(`First date: ${hours}:${minutes}`);
+//     console.log(`Current time: ${currentHours}:${currentMinutes}`);
+
+// console.log(d.getMonth());
+// d.setDate(d.getDate()+50);
+// console.log(d.getMonth());
+
+
+
+// let text = "";
+// const today = new Date();
+// const someday = new Date();
+// someday.setFullYear(2100,0,14);
+
+// if (someday > today){
+//     text = "Today is before january 14,2100";
+// }
+// else {
+//     text = "today is after january 14,2100";
+// }
+
+// console.log(text);
+
+
+// console.log(Math.floor(4.566));
+// console.log(Math.floor(-4.566));
+// console.log(Math.round(4.566));
+// console.log(Math.ceil(4.566));
+// console.log(Math.floor(9.566));
+// console.log(Math.floor(4.566));
+
+
+// console.log(Math.sign(-4.566));
+// console.log(Math.sign(4.566));
+// console.log(Math.sign(0));
+
+
+// console.log(Math.pow(2,8));
+
+// console.log(Math.min(0,5,-5,-200))
+
