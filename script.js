@@ -341,3 +341,51 @@
 
 // console.log(Math.min(0,5,-5,-200))
 
+// console.log(Math.floor(Math.random()*10)+1);
+// console.log(Math.floor(Math.random()*10));
+// console.log(Math.floor(Math.random()*10));
+
+// function getRandomInt(min,max){
+//     return console.log(Math.floor(Math.random()*(max-min+1)+min));
+// }
+
+// getRandomInt(50,100);
+// getRandomInt(45,90);
+// getRandomInt(12,99);
+// getRandomInt(5,120);
+
+// console.log(Number(" "))
+// console.log(Number(""))
+// console.log(Number("3.14"))
+// console.log(Number(Math.PI))
+
+
+
+// let x = 456; 
+
+// String(x);
+// console.log(String(123));
+// String(100+23);
+
+// console.log(x.toString());
+// console.log((123).toString());
+
+
+// let d = new Date();
+// console.log(Number(d));
+
+
+
+// setInterval(() => {
+//     e = new Date().toString();
+//     document.body.innerHTML = e + "<br>";
+    
+// }, 1000);
+// let myVar = [1,2,3,4,5,6,7,8,9,10,true,false];
+
+// document.getElementById("demo").innerHTML = myVar;
+
+
+
+
+
